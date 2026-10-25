@@ -1,0 +1,16 @@
+# secrets
+.env
+*.key
+
+# raw evidence stays private
+projects/*/evidence/*
+!projects/*/evidence/.gitkeep
+
+# python / node
+.venv/
+__pycache__/
+node_modules/
+
+# tool output caches
+.promptfoo/
+logs/

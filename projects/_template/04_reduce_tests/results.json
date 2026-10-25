@@ -1,0 +1,20 @@
+{
+  "config": {
+    "min_trials_for_null": 5,
+    "z": 1.96,
+    "secure_threshold": 0.05
+  },
+  "records": [
+    {
+      "id": "F-001",
+      "attack_type": "replace with a short description of the test",
+      "target_component": "llm",
+      "impact_category": "prompt_injection",
+      "owasp_llm": "LLM01:2025 Prompt Injection",
+      "mitre_atlas": "AML.T0051",
+      "trials": [
+        {"success": false, "note": "example trial, replace"}
+      ]
+    }
+  ]
+}

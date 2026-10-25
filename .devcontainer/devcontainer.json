@@ -1,0 +1,14 @@
+{
+  "name": "AI Security Lab",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "22" },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "pip install --user uv && echo 'Ready. Run: make help'",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "bierner.markdown-mermaid"]
+    }
+  }
+}
