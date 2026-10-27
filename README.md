@@ -4,7 +4,7 @@ Hands-on practice for AI security and AI red teaming: one folder per lab, one no
 Learning track for the EXIN AI Security Professional (OWASP AI Exchange).
 
 Larger, finished work lives in its own repositories:
-- [agent-evals](https://github.com/nikwilms/agent-evals) â€” prompt-injection evaluations of LLM agents
+- [agent-evals](https://github.com/nikwilms/agent-evals) prompt-injection evaluations of LLM agents
 
 ## Labs
 
