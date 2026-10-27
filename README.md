@@ -1,4 +1,4 @@
-﻿# AI Security Lab â€” practice notes
+﻿# AI Security Lab practice notes
 
 Hands-on practice for AI security and AI red teaming: one folder per lab, one note per exercise.
 Learning track for the EXIN AI Security Professional (OWASP AI Exchange).
