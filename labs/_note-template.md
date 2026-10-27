@@ -1,32 +1,23 @@
-﻿# <Lab> â€” <topic>
+# AI Security Lab practice notes
 
-*Hands-on notes Â· <date> Â· model: <model> Â· environment: <e.g. GitHub Codespace>*
+Hands-on practice for AI security and AI red teaming: one folder per lab, one note per exercise.  
+Learning track for the EXIN AI Security Professional (OWASP AI Exchange).
 
-## Test setup
+Larger, finished work lives in its own repositories:
+- [agent-evals](https://github.com/nikwilms/agent-evals) — prompt-injection evaluations of LLM agents
 
-- **Lab / exercise:** <...>
-- **Sample size:** <attempts per experiment>
-- **Known issues in the lab itself:** <none / description>
+## Labs
 
-## Experiments
+| Lab | Topic | Notes |
+|---|---|---|
+| [OWASP PwnzzAI](https://github.com/OWASP/PwnzzAI) | Prompt injection, levels 1–3 | [labs/pwnzzai/prompt-injection-levels-1-3.md](labs/pwnzzai/prompt-injection-levels-1-3.md) |
 
-| # | Hypothesis (written before the test) | Approach tested | Result |
-|---|---|---|---|
-| 1 | | | confirmed / refuted / inconclusive |
+## How each note is written
 
-## OWASP AI Exchange mapping
+Every note follows [`labs/_note-template.md`](labs/_note-template.md): test setup → hypothesis per experiment → result → OWASP AI Exchange mapping → mitigations → takeaway.
 
-| Field | Mapping |
-|---|---|
-| Lifecycle | development-time / runtime |
-| Threat type | input threat / other runtime threat / development-time threat |
-| Threat | <AI Exchange threat name and section> |
-| Asset / impact | <asset> / disclose, deceive or disrupt |
+## Rules
 
-## Mitigations (AI Exchange control names)
-
-- <CONTROL NAME> (<category>): <what it does here>
-
-## Takeaway
-
-<1â€“3 sentences: what I learned, and what I would test next.>
+- No secrets, API keys or raw logs in this repo.
+- No full solutions for labs that ask not to publish them (e.g. DVAA). Notes describe the method and the lesson, not the answer.
+- Lab environments run in GitHub Codespaces, not on the local machine.
